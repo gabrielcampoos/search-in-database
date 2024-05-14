@@ -45,8 +45,8 @@ export const Home = () => {
 				>
 					<Grid
 						item
-						xs={2}
-						sm={2}
+						xs={12}
+						sm={12}
 						md={2}
 						sx={{
 							width: '100%',
@@ -99,7 +99,7 @@ export const Home = () => {
 							}}
 						/>
 					</Grid>
-					<Grid item xs={2} sm={2} md={10}>
+					<Grid item xs={12} sm={12} md={10}>
 						{name !== '' ||
 						email !== '' ||
 						cpf !== '' ||
