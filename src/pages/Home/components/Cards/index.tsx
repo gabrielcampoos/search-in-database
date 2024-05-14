@@ -1,6 +1,4 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import DeleteIcon from '@mui/icons-material/Delete';
-import EditNoteIcon from '@mui/icons-material/EditNote';
 import { Card, CardContent, CardHeader, Grid, Typography } from '@mui/material';
 
 interface CardsProps {
