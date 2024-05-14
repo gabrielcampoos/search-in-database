@@ -5,7 +5,7 @@ interface CardsProps {
 	id: string;
 	name: string;
 	email: string;
-	cpf: string;
+	cpf: string | null;
 	phone: string;
 }
 

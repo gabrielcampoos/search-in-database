@@ -9,6 +9,6 @@ export interface UserDto {
 export interface FilterUserDto {
 	name?: string;
 	email?: string;
-	cpf?: string;
+	cpf?: string | null;
 	phone?: string;
 }
